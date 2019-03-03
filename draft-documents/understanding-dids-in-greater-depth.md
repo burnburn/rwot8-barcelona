@@ -1,39 +1,3 @@
-<!----- Conversion time: 3.131 seconds.
-
-
-Using this Markdown file:
-
-1. Cut and paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β16
-* Sun Mar 03 2019 08:11:06 GMT-0800 (PST)
-* Source doc: https://docs.google.com/a/consensys.net/open?id=1i66zZVjST2wjqCnL_b3bN0SIhN-C_swFeCjaPdIxANI
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server.
-
-WARNING:
-You have 12 H1 headings. You may want to use the "H1 -> H2" option to demote all headings by one level.
-
------>
-
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 5.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-
 # Understanding DIDs in Greater Depth
 
 A paper originating at the Rebooting the Web of Trust #8 Design Workshop
@@ -72,12 +36,7 @@ In this section we'll explain the basic structure of DIDs as a new form of ident
 
 The basic structure (called the "syntax") of DIDs is based on the pattern established by URNs (Uniform Resource Names). This is a specific type of identifiers for the World Wide Web whose purpose is to provide persistent identification of a resource, i.e., an identifier that will never change (literally, forever). The URN specification was originally defined in 1997 by [RFC 2141](https://tools.ietf.org/html/rfc2141) and is now defined by [RFC 8141](https://tools.ietf.org/html/rfc8141). This is what the structure of URN looks like:
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to media/Understanding-DIDs0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](media/Understanding-DIDs0.png "image_tooltip")
+![Image](media/Understanding-DIDs0.png "image_tooltip")
 
 
 
@@ -86,11 +45,7 @@ The basic structure (called the "syntax") of DIDs is based on the pattern establ
 A "naked DID" (a DID that does not include any additional components described later in this document) follows the exact same structure.
 
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Understanding-DIDs1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Understanding-DIDs1.png "image_tooltip")
+![Image](media/Understanding-DIDs1.png "image_tooltip")
 
 
 
@@ -101,11 +56,7 @@ We use URLs every day as identifiers that, in our web browsers, refer to downloa
 HTTP URL strings look like the following:
 
 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Understanding-DIDs2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Understanding-DIDs2.png "image_tooltip")
+![Image](media/Understanding-DIDs2.png "image_tooltip")
 
 
 
@@ -114,21 +65,13 @@ HTTP URL strings look like the following:
 The idea of a DID URL is that it has the same overall syntactic structure as an HTTP URL except for the structure of the "authority" part.
 
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Understanding-DIDs3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Understanding-DIDs3.png "image_tooltip")
+![Image](media/Understanding-DIDs3.png "image_tooltip")
 
 
 To clarify terminology, here are the two terms used in the DID ABNF and the DID specification to talk about overall sets of DID URL syntax:
 
 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Understanding-DIDs4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Understanding-DIDs4.png "image_tooltip")
+![Image](media/Understanding-DIDs4.png "image_tooltip")
 
 
 Note that, as this diagram suggests a "naked DID" is actually, by itself, a valid DID URL. It just doesn't have any other the other three standard components that can be in a URL, i.e. a path, a query, or a fragment. 
